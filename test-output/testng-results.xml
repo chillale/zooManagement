@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-20T17:22:38 IST" name="Suite" finished-at="2022-12-20T17:22:52 IST" duration-ms="14591">
+    <groups>
+      <group name="regression">
+        <method signature="Visitor2Test.visitor2()[pri:0, instance:visitorDetails.Visitor2Test@70e9c95d]" name="visitor2" class="visitorDetails.Visitor2Test"/>
+      </group> <!-- regression -->
+      <group name="integration">
+        <method signature="Visitor3Test.visitor3()[pri:0, instance:visitorDetails.Visitor3Test@534a5a98]" name="visitor3" class="visitorDetails.Visitor3Test"/>
+      </group> <!-- integration -->
+      <group name="smoke">
+        <method signature="Visitor1Test.visitor()[pri:0, instance:visitorDetails.Visitor1Test@2e3967ea]" name="visitor" class="visitorDetails.Visitor1Test"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-12-20T17:22:38 IST" name="Test" finished-at="2022-12-20T17:22:52 IST" duration-ms="14591">
+      <class name="visitorDetails.Visitor3Test">
+        <test-method is-config="true" signature="connectToDataBase()[pri:0, instance:visitorDetails.Visitor3Test@534a5a98]" started-at="2022-12-20T17:22:38 IST" name="connectToDataBase" finished-at="2022-12-20T17:22:38 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectToDataBase -->
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:visitorDetails.Visitor3Test@534a5a98]" started-at="2022-12-20T17:22:38 IST" name="launchTheBrowser" finished-at="2022-12-20T17:22:45 IST" duration-ms="6639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="loginIntoApplication()[pri:0, instance:visitorDetails.Visitor3Test@534a5a98]" started-at="2022-12-20T17:22:45 IST" name="loginIntoApplication" finished-at="2022-12-20T17:22:46 IST" duration-ms="1125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoApplication -->
+        <test-method signature="visitor3()[pri:0, instance:visitorDetails.Visitor3Test@534a5a98]" started-at="2022-12-20T17:22:46 IST" name="visitor3" finished-at="2022-12-20T17:22:51 IST" duration-ms="5237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visitor3 -->
+        <test-method is-config="true" signature="logoutIntoApplication()[pri:0, instance:visitorDetails.Visitor3Test@534a5a98]" started-at="2022-12-20T17:22:51 IST" name="logoutIntoApplication" finished-at="2022-12-20T17:22:52 IST" duration-ms="684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutIntoApplication -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:visitorDetails.Visitor3Test@534a5a98]" started-at="2022-12-20T17:22:52 IST" name="closeTheBrowser" finished-at="2022-12-20T17:22:52 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method is-config="true" signature="disconnectDataBase()[pri:0, instance:visitorDetails.Visitor3Test@534a5a98]" started-at="2022-12-20T17:22:53 IST" name="disconnectDataBase" finished-at="2022-12-20T17:22:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectDataBase -->
+      </class> <!-- visitorDetails.Visitor3Test -->
+      <class name="visitorDetails.Visitor1Test">
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:visitorDetails.Visitor1Test@2e3967ea]" started-at="2022-12-20T17:22:38 IST" name="launchTheBrowser" finished-at="2022-12-20T17:22:45 IST" duration-ms="6446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="loginIntoApplication()[pri:0, instance:visitorDetails.Visitor1Test@2e3967ea]" started-at="2022-12-20T17:22:45 IST" name="loginIntoApplication" finished-at="2022-12-20T17:22:46 IST" duration-ms="1232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoApplication -->
+        <test-method signature="visitor()[pri:0, instance:visitorDetails.Visitor1Test@2e3967ea]" started-at="2022-12-20T17:22:46 IST" name="visitor" finished-at="2022-12-20T17:22:50 IST" duration-ms="4120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visitor -->
+        <test-method is-config="true" signature="logoutIntoApplication()[pri:0, instance:visitorDetails.Visitor1Test@2e3967ea]" started-at="2022-12-20T17:22:50 IST" name="logoutIntoApplication" finished-at="2022-12-20T17:22:51 IST" duration-ms="566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutIntoApplication -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:visitorDetails.Visitor1Test@2e3967ea]" started-at="2022-12-20T17:22:51 IST" name="closeTheBrowser" finished-at="2022-12-20T17:22:51 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- visitorDetails.Visitor1Test -->
+      <class name="visitorDetails.Visitor2Test">
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:visitorDetails.Visitor2Test@70e9c95d]" started-at="2022-12-20T17:22:38 IST" name="launchTheBrowser" finished-at="2022-12-20T17:22:45 IST" duration-ms="6634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="loginIntoApplication()[pri:0, instance:visitorDetails.Visitor2Test@70e9c95d]" started-at="2022-12-20T17:22:45 IST" name="loginIntoApplication" finished-at="2022-12-20T17:22:46 IST" duration-ms="1139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoApplication -->
+        <test-method signature="visitor2()[pri:0, instance:visitorDetails.Visitor2Test@70e9c95d]" started-at="2022-12-20T17:22:46 IST" name="visitor2" finished-at="2022-12-20T17:22:51 IST" duration-ms="5203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visitor2 -->
+        <test-method is-config="true" signature="logoutIntoApplication()[pri:0, instance:visitorDetails.Visitor2Test@70e9c95d]" started-at="2022-12-20T17:22:51 IST" name="logoutIntoApplication" finished-at="2022-12-20T17:22:52 IST" duration-ms="834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutIntoApplication -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:visitorDetails.Visitor2Test@70e9c95d]" started-at="2022-12-20T17:22:52 IST" name="closeTheBrowser" finished-at="2022-12-20T17:22:52 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- visitorDetails.Visitor2Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
