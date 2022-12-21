@@ -2,11 +2,10 @@ package addAnimals;
 
 import org.openqa.selenium.Alert;
 import org.testng.annotations.Test;
-import static genericUtility.JavaFaker.*;
+import static genericUtility.FakerUtils.*;
 import static mapInterface.HashMapCollections.*;
 import genericUtility.BaseClassZoo;
 import objectRepository.AddAnimalsPageClass;
-import objectRepository.LoginPageClass;
 
 public class AddParrotTest extends BaseClassZoo{
 	@Test
@@ -16,8 +15,8 @@ public class AddParrotTest extends BaseClassZoo{
 		addAnimalsPageClass.getAddAnimalsBtn().click();
 		addAnimalsPageClass.getAnimalNameTf().sendKeys(animalName());
 		addAnimalsPageClass.getImagefile().sendKeys(readFileFromHashMap().get("SweetParrot"));
-		addAnimalsPageClass.getCageNumberTf().sendKeys(""+cageNumber());
-		addAnimalsPageClass.getFeedNumberTf().sendKeys(""+feedNumber());
+		addAnimalsPageClass.getCageNumberTf().sendKeys(cageNumber());
+		addAnimalsPageClass.getFeedNumberTf().sendKeys(feedNumber());
 		addAnimalsPageClass.getBreedNumber().sendKeys(breed());
 		addAnimalsPageClass.getDescriptionOfAnimal().sendKeys(description());
 		addAnimalsPageClass.getSubmitBtn().click();

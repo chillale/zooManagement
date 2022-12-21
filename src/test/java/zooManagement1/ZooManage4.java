@@ -10,7 +10,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import genericUtility.ExcelFile;
-import genericUtility.JavaFaker;
+import static genericUtility.FakerUtils.*;
 import genericUtility.PropertyFile;
 import genericUtility.WebDriverUtilityZoo;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -50,7 +50,7 @@ public class ZooManage4 {
 		addTicketButton.click();
 		
 		WebElement visitorName = driver.findElement(By.id("visitorname"));
-		visitorName.sendKeys(foreignerName+" "+JavaFaker.foreignerName());
+		visitorName.sendKeys(foreignerName+foreignerName());
 		System.out.println(foreignerName);
 		
 		WebElement noOfAdult = driver.findElement(By.id("noadult"));

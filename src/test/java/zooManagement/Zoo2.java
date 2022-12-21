@@ -5,8 +5,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-import genericUtility.JavaFaker;
+import static mapInterface.ForeignersTicketDetails.*;
+import genericUtility.FakerUtils.*;
 import genericUtility.WebDriverUtilityZoo;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -44,13 +44,13 @@ public class Zoo2 {
 //		webDriverUtilityZoo.allHandles(pHadle);
 		
 		WebElement visitorName = driver.findElement(By.id("visitorname"));
-		visitorName.sendKeys(""+JavaFaker.foreignerName());
+		visitorName.sendKeys(foreignersDetails().get("visitoName"));
 		
 		WebElement noOfAdult = driver.findElement(By.id("noadult"));
-		noOfAdult.sendKeys(""+JavaFaker.randomNumber());
+		noOfAdult.sendKeys(foreignersDetails().get("noOfAdult"));
 		
 		WebElement noOfChildren = driver.findElement(By.id("nochildren"));
-		noOfChildren.sendKeys(""+JavaFaker.randomNumber());
+		noOfChildren.sendKeys(foreignersDetails().get("noOfChildren"));
 		
 		WebElement submitButton = driver.findElement(By.name("submit"));
 		submitButton.click();

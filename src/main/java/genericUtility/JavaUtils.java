@@ -2,6 +2,8 @@ package genericUtility;
 
 import java.util.Random;
 
+import com.github.javafaker.Faker;
+
 public class JavaUtils {
 	
        public static int generateRandomNumber() {

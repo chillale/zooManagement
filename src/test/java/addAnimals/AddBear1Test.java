@@ -2,7 +2,7 @@ package addAnimals;
 
 import org.openqa.selenium.Alert;
 import org.testng.annotations.Test;
-import static genericUtility.JavaFaker.*;
+import static genericUtility.FakerUtils.*;
 import genericUtility.BaseClassZoo;
 import objectRepository.AddAnimalsPageClass;
 import static mapInterface.HashMapCollections.*;

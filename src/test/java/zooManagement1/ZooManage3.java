@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import genericUtility.ExcelFile;
-import genericUtility.JavaFaker;
+import static genericUtility.FakerUtils.*;
 import genericUtility.PropertyFile;
 import genericUtility.WebDriverUtilityZoo;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -24,7 +24,7 @@ public class ZooManage3 {
 		String data=excelFile.readDataFromExcel("sheet1", 2, 0);
 		String data1 = excelFile.readDataFromExcel("sheet1", 2, 1);
 		String data2=excelFile.readDataFromExcel("sheet1", 2, 2);
-		String foreignerName = JavaFaker.foreignerName();
+		String foreignerName = foreignerName();
 		
 		driver.get(uRL);
 		WebDriverUtilityZoo webDriverUtilityZoo = new WebDriverUtilityZoo(driver);

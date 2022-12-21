@@ -7,7 +7,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import genericUtility.ExcelFile;
-import genericUtility.JavaFaker;
 import genericUtility.PropertyFile;
 import genericUtility.WebDriverUtilityZoo;
 import io.github.bonigarcia.wdm.WebDriverManager;
